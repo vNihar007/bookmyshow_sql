@@ -119,7 +119,7 @@ SELECT
     t.name AS TheatreName,
     m.title AS MovieName,
     m.language AS Language,
-    m.genre AS Genre,  -- Assuming Rating is not present, replaced with Genre
+    m.genre AS Genre,  
     ms.start_time AS ShowTime
 FROM MovieShow ms
 JOIN Theatre t ON ms.theatre_id = t.theatre_id
